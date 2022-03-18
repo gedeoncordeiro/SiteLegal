@@ -3,21 +3,40 @@
     margin: 0;
 }
 header{
-    background-color: rgb(19, 87, 83);
+    background-color: #00a9c8;
     color: white;
     width: 100%;
-    height: 40px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
    
     
+}
+.principal{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.principal input{
+    border-radius: 14px;
+    border: none;
 }
 
 
 .dropBtn{
-    background-color: #04aa6d;
+    background-color: transparent;
     color: white;
-    padding: 10px;
+    padding: 4px;
     font-size: 16px;
+    font-weight: bold;
     border: none;
+
 }
 .dropdown{
     position: relative;
@@ -43,4 +62,4 @@ header{
 }
 .dropContent a:hover{background-color: #21f0a4;}
 .dropdown:hover .dropContent{display: block;}
-.dropdown:hover .dropBtn{background-color: #05d186;}
+.dropdown:hover .dropBtn{color: #05d186;}
